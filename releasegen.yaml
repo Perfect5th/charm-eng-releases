@@ -87,3 +87,16 @@ teams:
           - bootstack-actions
           - solutions-engineering-automation
           - snap-tempest-automation
+
+  - name: Landscape
+    github:
+      - org: canonical
+        teams:
+          - landscape
+        ignores:
+          - landscape-client
+          - landscape-hostagent-api
+          - landscape-internal-docs
+          - landscape-ops
+          - landscape-scripts
+          - snap-http
